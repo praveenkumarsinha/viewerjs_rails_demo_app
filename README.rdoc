@@ -1,0 +1,16 @@
+== INTRODUCTION
+
+This is an application to demonstrate how to use viewerjs-rails gem to render pdf in a rails application
+
+== HOW TO
+
+    Step 01: Do a bundle install
+    Step 02: Run a server (may be with a rails s)
+    Step 03: Visit url
+        Example 01  : http://localhost:3000/home/pdf/#../../sample-item.pdf
+        Example 01.a: http://localhost:3000/home/pdf/?a=1#../../sample-item.pdf
+        Example 02  : http://localhost:3000/#sample-item.pdf
+        Example 02.b: http://localhost:3000/?b=12#sample-item.pdf
+
+            Please note that pdf file needs to be publically available and it should have a relative path from current resource(in url).
+            As in this 'Example 01' sample-item.pdf is available in public directory of rails appciation and ../../ will point to public directoty from /home/pdf of url
