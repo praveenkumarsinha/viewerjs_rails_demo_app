@@ -12,5 +12,5 @@ This is an application to demonstrate how to use viewerjs-rails gem to render pd
         Example 02  : http://localhost:3000/#sample-item.pdf
         Example 02.b: http://localhost:3000/?b=12#sample-item.pdf
 
-            Please note that pdf file needs to be publically available and it should have a relative path from current resource(in url).
-            As in this 'Example 01' sample-item.pdf is available in public directory of rails appciation and ../../ will point to public directoty from /home/pdf of url
+            Please note that pdf file needs to be public-ally available and it should have a relative path from current resource(in url).
+            As in this 'Example 01' sample-item.pdf is available in public directory of rails application and ../../ will point to public directory from /home/pdf of url
